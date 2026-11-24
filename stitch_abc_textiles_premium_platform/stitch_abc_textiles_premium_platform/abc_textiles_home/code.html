@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ABC Textiles - Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600&amp;family=Playfair+Display:wght@500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-container": "#261900",
+                        "on-surface-variant": "#444748",
+                        "on-tertiary-fixed": "#261900",
+                        "on-error-container": "#93000a",
+                        "on-secondary": "#ffffff",
+                        "surface": "#fbf9f8",
+                        "secondary": "#5e5e5b",
+                        "secondary-fixed-dim": "#c8c6c2",
+                        "on-primary-fixed-variant": "#474746",
+                        "surface-variant": "#e4e2e2",
+                        "on-secondary-fixed": "#1b1c19",
+                        "error": "#ba1a1a",
+                        "primary-container": "#1c1b1b",
+                        "tertiary-fixed": "#ffdea5",
+                        "on-tertiary-container": "#a17f3b",
+                        "on-error": "#ffffff",
+                        "tertiary": "#000000",
+                        "outline-variant": "#c4c7c7",
+                        "surface-tint": "#5f5e5e",
+                        "surface-bright": "#fbf9f8",
+                        "secondary-container": "#e1dfdb",
+                        "inverse-on-surface": "#f2f0f0",
+                        "primary-fixed": "#e5e2e1",
+                        "error-container": "#ffdad6",
+                        "secondary-fixed": "#e4e2dd",
+                        "on-secondary-container": "#63635f",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed-dim": "#e9c176",
+                        "background": "#fbf9f8",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-container": "#858383",
+                        "surface-container-high": "#e9e8e7",
+                        "surface-container": "#efeded",
+                        "on-background": "#1b1c1c",
+                        "surface-dim": "#dbdad9",
+                        "inverse-surface": "#303031",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "on-primary": "#ffffff",
+                        "outline": "#747878",
+                        "on-tertiary-fixed-variant": "#5d4201",
+                        "on-surface": "#1b1c1c",
+                        "surface-container-low": "#f5f3f3",
+                        "on-secondary-fixed-variant": "#474744",
+                        "primary": "#000000",
+                        "surface-container-highest": "#e4e2e2",
+                        "on-primary-fixed": "#1c1b1b",
+                        "inverse-primary": "#c8c6c5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "unit": "8px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Playfair Display"],
+                        "headline-md": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "body-md": ["Hanken Grotesk"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-lg": ["Playfair Display"],
+                        "label-md": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "headline-md": ["28px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                        "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "caption": ["12px", {"lineHeight": "1.4", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-lg": ["40px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                        "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-md antialiased pb-24 md:pb-0">
+<!-- TopAppBar -->
+<header class="bg-surface/80 dark:bg-surface-container-lowest/80 backdrop-blur-md fixed top-0 w-full z-50 border-b border-outline-variant/30 dark:border-outline/20">
+<div class="flex justify-between items-center px-margin-mobile h-16 w-full max-w-container-max mx-auto">
+<button aria-label="Menu" class="text-on-surface-variant dark:text-on-secondary-fixed-variant hover:opacity-70 transition-opacity">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<h1 class="font-display-lg text-headline-md text-primary dark:text-on-surface tracking-tight">ABC Textiles</h1>
+<button aria-label="Shopping Bag" class="text-on-surface-variant dark:text-on-secondary-fixed-variant hover:opacity-70 transition-opacity">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+</button>
+</div>
+<!-- Desktop Nav Links (Hidden on mobile as per TopAppBar rules typically, but adding subtle secondary nav below brand if needed on web. For now sticking to exact json shell layout) -->
+<nav class="hidden md:flex justify-center gap-8 py-4 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30 text-on-surface-variant font-label-md text-label-md">
+<a class="text-primary font-medium border-b-2 border-primary pb-1" href="#">Collections</a>
+<a class="hover:text-primary transition-colors pb-1" href="#">Showroom</a>
+<a class="hover:text-primary transition-colors pb-1" href="#">Bookings</a>
+<a class="hover:text-primary transition-colors pb-1" href="#">Our Story</a>
+</nav>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-16 md:pt-[120px]">
+<!-- Hero Section -->
+<section class="relative w-full h-[707px] min-h-[600px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 w-full h-full">
+<img alt="Premium Silk Texture" class="object-cover w-full h-full object-center" data-alt="A highly detailed close-up macro photograph of premium, light ivory silk fabric softly draping and catching elegant studio lighting. The texture is impeccably smooth with a subtle sheen, capturing the essence of quiet luxury. The lighting creates gentle, undulating shadows that emphasize the high-end textile quality. The color palette is strictly minimalist, using tones of warm white, ivory, and faint silver. The mood is calm, refined, and sophisticated." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPWvQaGM2ZnaGsHKHQw1GSFBpRj_sHVaH-d8A2bsTJ80nZn-71jqP9C4c8QTlumtrGNChieqziQ2h9O73arIyPFA_4b8mjt6cDWbBmXV-i6tkLb8QGQ3LjzW-V2umUNhhQLqwU4tw1G7ljrJtHR9KYXNmN7zd_mebHLuGgRi3t4-2YHObtmMNxRbi_OYhDsiWlR3DTt0E6SsOtYEfsluql0evDwKuEaJ5cEonBRJ3b6cMzOR1KY5BX"/>
+<div class="absolute inset-0 bg-surface/30 backdrop-blur-[2px]"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center flex flex-col items-center">
+<h2 class="font-display-lg text-headline-lg-mobile md:text-display-lg text-primary max-w-3xl mb-6">Crafting Elegance in Every Thread</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-10">Premium textiles for the modern designer.</p>
+<div class="flex flex-col sm:flex-row gap-4 items-center justify-center">
+<button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary-container transition-colors tracking-wide uppercase shadow-sm">
+                        Explore Collection
+                    </button>
+<button class="border border-outline text-primary font-label-md text-label-md px-8 py-4 rounded hover:border-primary hover:text-tertiary transition-colors tracking-wide uppercase bg-surface/80 backdrop-blur-sm">
+                        Contact Us
+                    </button>
+</div>
+</div>
+</section>
+<!-- Featured Products (Horizontal Scroll) -->
+<section class="py-24 md:py-32 bg-surface">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-12 flex justify-between items-end">
+<div>
+<h3 class="font-headline-md text-headline-lg-mobile md:text-headline-md text-primary mb-2">Featured Collections</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Discover our most sought-after materials.</p>
+</div>
+<a class="hidden md:flex items-center gap-2 font-label-md text-label-md text-primary hover:text-tertiary-container transition-colors uppercase" href="#">
+                    View All <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<div class="w-full overflow-x-auto hide-scrollbar pl-margin-mobile md:pl-margin-desktop pr-margin-mobile md:pr-margin-desktop pb-8">
+<div class="flex gap-gutter w-max">
+<!-- Product Card 1 -->
+<div class="w-[280px] md:w-[360px] group cursor-pointer">
+<div class="w-full aspect-[4/5] overflow-hidden mb-4 bg-surface-container">
+<img alt="Charcoal Linen" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A meticulously styled flat lay of folded linen fabric in a soft, muted charcoal tone. The fabric has a natural, slightly slubbed texture that exudes organic elegance. It rests on a pristine, bright white background. Soft, diffused daylight highlights the subtle variations in the weave. The overall aesthetic is minimalist, tactile, and highly premium, fitting a luxury design portfolio." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXckbElgF6OLtuVE_d0fKNlp_sO6CCnvCCuizBGn5zb_RwbnilUhrcjvHRi62QiovXH8G36K9JfdCqxDNJbF0_qTekxqCkTJEPK0syUOvWYTavKhdaCF2-VGXQML-W5B6ztBPx-VW8MyMTGHCmK88JA0Ka1skS1zSEFe3-UXpH8wyb4dRP5ywcL41AvF1yHcGOHBMrPEmOruC3DnvJHU6pOQkMcew-x1a4Ej8PXK753mbINSdMM9hV"/>
+</div>
+<h4 class="font-headline-md text-body-lg text-primary mb-1">Artisan Linen</h4>
+<p class="font-body-md text-caption text-on-surface-variant">Charcoal Weave</p>
+</div>
+<!-- Product Card 2 -->
+<div class="w-[280px] md:w-[360px] group cursor-pointer">
+<div class="w-full aspect-[4/5] overflow-hidden mb-4 bg-surface-container">
+<img alt="Golden Velvet" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A dramatic, close-up shot of rich, golden-tertiary velvet fabric catching the light. The pile of the velvet is deep and luxurious, creating strong contrasts between highlights and shadows. The lighting is cinematic yet clean, focusing entirely on the material's opulent texture. The background is completely out of focus, maintaining a minimalist, high-end presentation suitable for a luxury textile brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBp3pJFG6k0S3ium3sEe_ozFlqe92vjnNQJHtX4FufDmt0b9rj4ztdGQgnTLIu5MdXXAVsrbC2cMO2j_kq6J6jAbR6WjeX9mseoMwshjtf5sOjQ42kU-9YKUV3z84IqtP3DRBZszK2CnyRSWeeHsoT0v2CPYfBoUHJUM8bTqT2b7OpeY2LX_XJWKQd3rJWShPHdn5qfRv897nxq7CSESnWefBWTnNvSDi-anUA2ltcqAD9I2_kx4O09"/>
+</div>
+<h4 class="font-headline-md text-body-lg text-primary mb-1">Opulent Velvet</h4>
+<p class="font-body-md text-caption text-on-surface-variant">Amber Gold</p>
+</div>
+<!-- Product Card 3 -->
+<div class="w-[280px] md:w-[360px] group cursor-pointer">
+<div class="w-full aspect-[4/5] overflow-hidden mb-4 bg-surface-container">
+<img alt="White Organza" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A pristine, airy photograph of semi-sheer white silk organza draped elegantly over a minimalist frame. The fabric is translucent, allowing soft, natural light to pass through, creating ethereal patterns. The aesthetic is incredibly clean, light-mode, and sophisticated. The color palette is restricted to pure whites and subtle, soft grays. The focus is entirely on the delicate, high-quality structure of the material." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIKz1Zh0bs564rB7X5rnjOvZjfNdBTjMhm3-PT2_mLiVH_wOswXQWxvS5XQtRdT07yGlCdFKWWZy_JQHJY3vfcNH3SFuZT4oHW3tGo1NnbqyiDbCaJuDf61--3HVR4wIzMLDYmAYIItmOPIDfmXphzORPRxdeWNrk_qKqwdB-wsyjt1Mn9WP0bkG_uM5DwKLAj2k56ux0tFHklrhhF8Dm6lR5iN9_-sbB6hGheRXW5tJ7jDQLH6B8N"/>
+</div>
+<h4 class="font-headline-md text-body-lg text-primary mb-1">Sheer Organza</h4>
+<p class="font-body-md text-caption text-on-surface-variant">Pure Ivory</p>
+</div>
+<!-- Product Card 4 -->
+<div class="w-[280px] md:w-[360px] group cursor-pointer">
+<div class="w-full aspect-[4/5] overflow-hidden mb-4 bg-surface-container">
+<img alt="Taupe Boucle" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A detailed macro photograph of a heavy, textural bouclé fabric in a warm, light taupe color. The complex weave of looped yarns is sharply in focus, conveying a sense of tactile warmth and durability. The lighting highlights the depth and dimension of the textile against a clean, off-white background. The image feels grounded, modern, and suitable for high-end upholstery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbSO88bViaxnGPgxf0E9Bs38URFTh0Zvigm1KNmYDTFZb3ywMDQC4WlBHVWH_zzX-0OuLO_kX9g_T4PbmyqPSFDDBmD7zf0OqflFj_Q0Di5HBzdCzLoRN1q9g_CiNeAujegg4czL7sj6vuqf8XgxxKnzYwY2Obe6PF2MpEC7NbF9tnbfTxcG2oJRwxP2-YENGBcFXAznKUd6Ssg8b0cMuJ5LxU2qn0uk0N3GMDaJGpvotkjy58rrYm"/>
+</div>
+<h4 class="font-headline-md text-body-lg text-primary mb-1">Classic Bouclé</h4>
+<p class="font-body-md text-caption text-on-surface-variant">Warm Taupe</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Our Story (Asymmetric Layout) -->
+<section class="py-24 md:py-32 bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-5 md:col-start-2 order-2 md:order-1 flex flex-col justify-center">
+<h3 class="font-headline-md text-headline-lg-mobile md:text-headline-lg text-primary mb-6">Heritage in Motion</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+                            For over three decades, ABC Textiles has bridged the gap between traditional weaving techniques and contemporary design needs. Our mills operate with a singular focus: to produce materials that look exquisite and perform flawlessly.
+                        </p>
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-primary hover:text-tertiary-container transition-colors uppercase border-b border-primary pb-1 w-max" href="#">
+                            Read Our Story
+                        </a>
+</div>
+<div class="md:col-span-6 order-1 md:order-2">
+<div class="aspect-square md:aspect-[4/3] overflow-hidden">
+<img alt="Traditional Loom" class="w-full h-full object-cover" data-alt="A high-end, artistic photograph of an antique wooden loom in a bright, modern studio space. The loom is partially strung with fine, white threads. The lighting is dramatic yet soft, coming from a large, unseen window, creating a serene, almost museum-like atmosphere. The contrast between the dark, aged wood of the loom and the pristine, bright environment emphasizes a blend of heritage craftsmanship and modern luxury design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAa7hZmK71--wKw36AuDATwA_HLEhcdAscZgptnFjw8LnFfCABSlMzD4zgsQFG65bfVKzDn33c4acRIzB0XPZmz09oeHGvptVcIPaiBjcEJI8dtNHEFhe8RYx6sHJfxg67fWTAZB5quzWY0AIm-QWEMosyEL5UhtcRMF5urOaH_cZEmHQktGs24BaUX45i2KZUXtejVRk4DMImQv76LyfrGaJnu66WBOftwbHRjiUMuUMDnEsKA-t10"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why ABC Textiles (Bento Grid) -->
+<section class="py-24 md:py-32 bg-surface">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<h3 class="font-headline-md text-headline-lg-mobile md:text-headline-md text-primary mb-16 text-center">The ABC Difference</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-gutter">
+<!-- Feature 1 -->
+<div class="bg-surface-container-low p-8 border border-outline-variant/50 flex flex-col items-start hover:border-outline transition-colors duration-300">
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="diamond">diamond</span>
+<h4 class="font-headline-md text-body-lg text-primary mb-3">Uncompromising Quality</h4>
+<p class="font-body-md text-caption text-on-surface-variant leading-relaxed">
+                            Every yard is inspected with rigorous standards, ensuring flawless consistency and superior tactile feel.
+                        </p>
+</div>
+<!-- Feature 2 -->
+<div class="bg-surface-container-low p-8 border border-outline-variant/50 flex flex-col items-start hover:border-outline transition-colors duration-300 md:-translate-y-8">
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="history_edu">history_edu</span>
+<h4 class="font-headline-md text-body-lg text-primary mb-3">Rich Heritage</h4>
+<p class="font-body-md text-caption text-on-surface-variant leading-relaxed">
+                            Rooted in generations of textile expertise, we honor traditional methods while innovating for the future.
+                        </p>
+</div>
+<!-- Feature 3 -->
+<div class="bg-surface-container-low p-8 border border-outline-variant/50 flex flex-col items-start hover:border-outline transition-colors duration-300">
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="eco">eco</span>
+<h4 class="font-headline-md text-body-lg text-primary mb-3">Sustainable Practices</h4>
+<p class="font-body-md text-caption text-on-surface-variant leading-relaxed">
+                            Committed to environmentally conscious production, sourcing ethical yarns and minimizing our footprint.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden bg-surface/90 dark:bg-surface-container/90 backdrop-blur-xl fixed bottom-0 left-0 w-full flex justify-around items-center h-20 px-4 z-50 pb-safe border-t border-outline-variant/30">
+<!-- Active: Collections (assuming home maps to exploring collections based on context) -->
+<a class="flex flex-col items-center justify-center text-primary dark:text-on-surface bg-secondary-container/50 dark:bg-secondary/20 rounded-full px-4 py-1 translate-y-[-2px] transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="grid_view" style="font-variation-settings: 'FILL' 1;">grid_view</span>
+<span class="font-label-md text-label-md mt-1">Collections</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-secondary-container dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="storefront">storefront</span>
+<span class="font-label-md text-label-md mt-1">Showroom</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-secondary-container dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="calendar_today">calendar_today</span>
+<span class="font-label-md text-label-md mt-1">Bookings</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-secondary-container dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-md text-label-md mt-1">Profile</span>
+</a>
+</nav>
+</body></html>

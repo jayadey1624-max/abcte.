@@ -1,0 +1,24 @@
+{
+  "name": "abc-textiles-backend",
+  "version": "1.0.0",
+  "description": "Production REST API backend for ABC Textiles luxury fabric platform",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "abc-textiles",
+    "atelier-weave",
+    "luxury-fabrics",
+    "rest-api",
+    "nodejs"
+  ],
+  "author": "ABC Textiles Atelier Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

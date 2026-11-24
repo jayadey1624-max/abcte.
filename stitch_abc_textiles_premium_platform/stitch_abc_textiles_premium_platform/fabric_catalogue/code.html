@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ABC Textiles - Collections</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-container": "#261900",
+                        "on-surface-variant": "#444748",
+                        "on-tertiary-fixed": "#261900",
+                        "on-error-container": "#93000a",
+                        "on-secondary": "#ffffff",
+                        "surface": "#fbf9f8",
+                        "secondary": "#5e5e5b",
+                        "secondary-fixed-dim": "#c8c6c2",
+                        "on-primary-fixed-variant": "#474746",
+                        "surface-variant": "#e4e2e2",
+                        "on-secondary-fixed": "#1b1c19",
+                        "error": "#ba1a1a",
+                        "primary-container": "#1c1b1b",
+                        "tertiary-fixed": "#ffdea5",
+                        "on-tertiary-container": "#a17f3b",
+                        "on-error": "#ffffff",
+                        "tertiary": "#000000",
+                        "outline-variant": "#c4c7c7",
+                        "surface-tint": "#5f5e5e",
+                        "surface-bright": "#fbf9f8",
+                        "secondary-container": "#e1dfdb",
+                        "inverse-on-surface": "#f2f0f0",
+                        "primary-fixed": "#e5e2e1",
+                        "error-container": "#ffdad6",
+                        "secondary-fixed": "#e4e2dd",
+                        "on-secondary-container": "#63635f",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed-dim": "#e9c176",
+                        "background": "#fbf9f8",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-container": "#858383",
+                        "surface-container-high": "#e9e8e7",
+                        "surface-container": "#efeded",
+                        "on-background": "#1b1c1c",
+                        "surface-dim": "#dbdad9",
+                        "inverse-surface": "#303031",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "on-primary": "#ffffff",
+                        "outline": "#747878",
+                        "on-tertiary-fixed-variant": "#5d4201",
+                        "on-surface": "#1b1c1c",
+                        "surface-container-low": "#f5f3f3",
+                        "on-secondary-fixed-variant": "#474744",
+                        "primary": "#000000",
+                        "surface-container-highest": "#e4e2e2",
+                        "on-primary-fixed": "#1c1b1b",
+                        "inverse-primary": "#c8c6c5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "unit": "8px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Playfair Display"],
+                        "headline-md": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "body-md": ["Hanken Grotesk"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-lg": ["Playfair Display"],
+                        "label-md": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+                        "headline-md": ["28px", { "lineHeight": "1.3", "fontWeight": "500" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "1.2", "fontWeight": "500" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "caption": ["12px", { "lineHeight": "1.4", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-lg": ["40px", { "lineHeight": "1.2", "fontWeight": "500" }],
+                        "label-md": ["14px", { "lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom Scrollbar for chips container */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        
+        /* Ensure specific dark mode classes overrides */
+        .dark .backdrop-blur-md {
+            backdrop-filter: blur(12px);
+        }
+        .pb-safe {
+            padding-bottom: env(safe-area-inset-bottom, 20px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md selection:bg-tertiary selection:text-on-tertiary antialiased">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface-container-lowest/80 backdrop-blur-md border-b border-outline-variant/30 dark:border-outline/20">
+<div class="flex justify-between items-center px-margin-mobile h-16 w-full max-w-container-max mx-auto">
+<button class="text-on-surface-variant dark:text-on-secondary-fixed-variant hover:opacity-70 transition-opacity">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<h1 class="font-display-lg text-headline-md text-primary dark:text-on-surface tracking-tight">ABC Textiles</h1>
+<button class="text-on-surface-variant dark:text-on-secondary-fixed-variant hover:opacity-70 transition-opacity">
+<span class="material-symbols-outlined">shopping_bag</span>
+</button>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="pt-24 pb-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto min-h-screen">
+<!-- Search & Filter Area -->
+<section class="mb-8 flex items-center gap-4">
+<div class="relative flex-1 group">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline-variant group-focus-within:text-primary transition-colors">search</span>
+<input class="w-full bg-surface-container-low dark:bg-surface-container border-b border-outline-variant/50 focus:border-primary dark:focus:border-on-surface px-12 py-3 outline-none font-body-md text-body-md transition-all rounded-t-DEFAULT" placeholder="Search fabrics..." type="text"/>
+</div>
+<button class="p-3 border border-outline-variant/50 hover:border-primary dark:hover:border-on-surface rounded-DEFAULT transition-colors flex items-center justify-center group bg-surface-container-lowest">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">tune</span>
+</button>
+</section>
+<!-- Categories / Chips -->
+<section class="mb-10 overflow-x-auto no-scrollbar -mx-margin-mobile px-margin-mobile md:mx-0 md:px-0">
+<div class="flex gap-3 w-max pb-2">
+<button class="px-6 py-2 rounded-full border border-primary dark:border-on-surface bg-primary dark:bg-on-surface text-on-primary dark:text-inverse-on-surface font-label-md text-label-md transition-colors">
+                    All
+                </button>
+<button class="px-6 py-2 rounded-full border border-outline-variant hover:border-primary dark:hover:border-on-surface text-on-surface-variant hover:text-primary dark:hover:text-on-surface font-label-md text-label-md transition-colors bg-surface-container-lowest">
+                    Linen
+                </button>
+<button class="px-6 py-2 rounded-full border border-outline-variant hover:border-primary dark:hover:border-on-surface text-on-surface-variant hover:text-primary dark:hover:text-on-surface font-label-md text-label-md transition-colors bg-surface-container-lowest">
+                    Silk
+                </button>
+<button class="px-6 py-2 rounded-full border border-outline-variant hover:border-primary dark:hover:border-on-surface text-on-surface-variant hover:text-primary dark:hover:text-on-surface font-label-md text-label-md transition-colors bg-surface-container-lowest">
+                    Cotton
+                </button>
+<button class="px-6 py-2 rounded-full border border-outline-variant hover:border-primary dark:hover:border-on-surface text-on-surface-variant hover:text-primary dark:hover:text-on-surface font-label-md text-label-md transition-colors bg-surface-container-lowest">
+                    Wool
+                </button>
+<button class="px-6 py-2 rounded-full border border-outline-variant hover:border-primary dark:hover:border-on-surface text-on-surface-variant hover:text-primary dark:hover:text-on-surface font-label-md text-label-md transition-colors bg-surface-container-lowest">
+                    Synthetic
+                </button>
+</div>
+</section>
+<!-- Product Grid -->
+<section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-gutter">
+<!-- Fabric Card 1 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high mb-4">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Close up high resolution photography of raw unbleached natural linen fabric texture, displaying visible weave patterns and subtle slubs in soft natural daylight, minimalist neutral beige tones, premium tactile quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDem9jvjRUOUPj5i6gQH3V9MK_PUExcyXKXgvdWI3jbICfHYPathZfyDwdYTYGJJe0m5u2F1ZUHd4WOK53P0Uejv-RMfL4IkY15RvkpDTM6UHxGVzAYFmtxWW5O7tFgYe4lLF48YEmsnWCsJO28-iMJzsOWeKNNtgxF2QhgCDU6kMQYI5qQlBeLgv0Ezy1i5CHX-5OG07rCmyGPW2CuyzGpitbfrpBAytXpB98Ean6wS5-aDTounNF8"/>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<h2 class="font-headline-md text-body-lg text-primary dark:text-on-surface truncate">Heritage Linen</h2>
+<span class="font-body-md text-caption text-on-surface-variant mt-1">250 GSM</span>
+</div>
+<p class="font-body-md text-caption text-on-surface-variant uppercase tracking-wider">Linen</p>
+<!-- Swatches -->
+<div class="flex gap-2 mt-2">
+<div class="w-4 h-4 rounded-full bg-[#f3ecd5] ring-1 ring-outline-variant/30 ring-offset-2 ring-offset-background"></div>
+<div class="w-4 h-4 rounded-full bg-[#e8e4df] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+<div class="w-4 h-4 rounded-full bg-[#3a3c39] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+</div>
+</div>
+</article>
+<!-- Fabric Card 2 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high mb-4">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Macro photography of lustrous mulberry silk fabric gracefully draped, creating deep shadows and bright highlights on the smooth surface, rich charcoal gray color, luxurious and sleek aesthetic, soft studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpRX5xEaiBY7joMDV6e7CrqWVWXKOggZ4VPlDL6afUab5hhpRjtnHxZyKxKSF9WKSoDzbCu_vSdyhl0v28HKMiwr6Mlx4lWsGa_Ta3kvbAP9EvsiSRthaqyBLkCgijSxbCVYT6ha2k9XCG9UwWSBizMGLWP625sN8dkBkkhRxvN-KaLLzyN58o8vVWf_eqimgWBpMsnSNYI-972Z9P4OTycPTHj6-J15Ak_ywvViKKpI9TynvQOqyf"/>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<h2 class="font-headline-md text-body-lg text-primary dark:text-on-surface truncate">Mulberry Silk</h2>
+<span class="font-body-md text-caption text-on-surface-variant mt-1">19 Momme</span>
+</div>
+<p class="font-body-md text-caption text-on-surface-variant uppercase tracking-wider">Silk</p>
+<!-- Swatches -->
+<div class="flex gap-2 mt-2">
+<div class="w-4 h-4 rounded-full bg-[#2a2a2a] ring-1 ring-outline-variant/30 ring-offset-2 ring-offset-background"></div>
+<div class="w-4 h-4 rounded-full bg-[#9c1936] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+</div>
+</div>
+</article>
+<!-- Fabric Card 3 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high mb-4">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Detailed texture shot of chunky knitted merino wool, thick yarn in interlocking loops, soft warm creamy white color, cozy and tactile winter fabric, photographed in bright clean daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtvEgFGm80lripddZJiJuudjJyZ5L_ccaivyxtvTRcwY_PJwJW7wjD8bZ_fkJcciYMeHBkUQLwa7y-sM3MZK4krCFStrHcC6ofLInSSUs82HgPLm2v6RQyzFFBqgkrtbNx-EpkXg69aCjYlZRSlmbRxTglM2KUUdxsXX-fBH0T6PJXsYs07RpoQJNJfuCukhcu-Rx34Q4uZSxfhBdQEPS3DeitF6XgU_QN3rSduSSbmHyRNy9Ub-QD"/>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<h2 class="font-headline-md text-body-lg text-primary dark:text-on-surface truncate">Chunky Merino</h2>
+<span class="font-body-md text-caption text-on-surface-variant mt-1">600 GSM</span>
+</div>
+<p class="font-body-md text-caption text-on-surface-variant uppercase tracking-wider">Wool</p>
+<!-- Swatches -->
+<div class="flex gap-2 mt-2">
+<div class="w-4 h-4 rounded-full bg-[#fdfbf6] ring-1 ring-outline-variant/30 ring-offset-2 ring-offset-background"></div>
+<div class="w-4 h-4 rounded-full bg-[#a3b1c6] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+<div class="w-4 h-4 rounded-full bg-[#ccbba6] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+</div>
+</div>
+</article>
+<!-- Fabric Card 4 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high mb-4">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Crisp high definition macro image of finely woven Egyptian cotton poplin, smooth matte surface with subtle cross-hatching weave visible, pale dusty blue color, clean minimalist presentation, sharp focus." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBq_0MjhD7J62Bb0Hp9bPfRz4lvOUWWvfipW5jHNcZAAHGtWFWGo4lINn-jZHYAUaJM5j_Ik8ooQjCSTmCQdZowtO8dcrWhYPkrAp0q871vHSPL9ddXhQKQ-_HnFoopEyXWfes1l6KVCA840NIq9B_WWSXxpml5Q4_mtKyW5kEpZJwIkYjoxyp2646BGFqt5oKxbxZom91XsvhWhbv2IpF97228zOJKQ53Xii5FjVVU6O8GPpnDLZha"/>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<h2 class="font-headline-md text-body-lg text-primary dark:text-on-surface truncate">Egyptian Poplin</h2>
+<span class="font-body-md text-caption text-on-surface-variant mt-1">120 Thread</span>
+</div>
+<p class="font-body-md text-caption text-on-surface-variant uppercase tracking-wider">Cotton</p>
+<!-- Swatches -->
+<div class="flex gap-2 mt-2">
+<div class="w-4 h-4 rounded-full bg-[#b8c9d4] ring-1 ring-outline-variant/30 ring-offset-2 ring-offset-background"></div>
+<div class="w-4 h-4 rounded-full bg-[#ffffff] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+</div>
+</div>
+</article>
+<!-- Fabric Card 5 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high mb-4">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Close-up of technical synthetic performance fabric with a subtle geometric ripstop pattern, dark olive green color, slight sheen reflecting cool studio light, modern industrial textile aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_wfTLITTl8_R-b55YoLa4srp2f13KH6U61qhLxaLx-1Rc_nW56y0rUaPQN00L0h5yBNS7MehK8WeN4-yuRLfmmgpMhaffYixa49uwKA-48J5NCEFsYsusTT5tvnSUeYBmp8i1nE1MTw9dKbMShaSV6S1vwqTop7yeTBeUKb1yk4Lpa60bZnk3Azg5U-GzEj3b4YS0dgTQWyET0Aeo7whQV39t5kjm0M_vX-Goo4NQrCw_IquC_rLj"/>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<h2 class="font-headline-md text-body-lg text-primary dark:text-on-surface truncate">Tech Ripstop</h2>
+<span class="font-body-md text-caption text-on-surface-variant mt-1">110 GSM</span>
+</div>
+<p class="font-body-md text-caption text-on-surface-variant uppercase tracking-wider">Synthetic</p>
+<!-- Swatches -->
+<div class="flex gap-2 mt-2">
+<div class="w-4 h-4 rounded-full bg-[#4a5342] ring-1 ring-outline-variant/30 ring-offset-2 ring-offset-background"></div>
+<div class="w-4 h-4 rounded-full bg-[#1c1c1c] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+<div class="w-4 h-4 rounded-full bg-[#d05c31] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+<div class="w-4 h-4 rounded-full bg-[#e3e3e3] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+</div>
+</div>
+</article>
+<!-- Fabric Card 6 -->
+<article class="group cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container-high mb-4">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Luxurious heavy velvet fabric texture photograph, deep sapphire blue color, dense pile capturing varying shades of blue depending on the light angle, rich and opulent mood, soft dramatic lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2F_rfGL-Sj4gnD-8DWm_7OG4Fz6p8u7I4Uma6DI5B5X2PmoyYRfbsUz_NxWmVBrTXQ-Rrw6AZNBJX3hQ824ShFpPx65DmaQzw6fGiURtLUVLS7LsYIR-DlkTn9JuEvlOBoOaNt359YjiEzic1BitB545n5-EbKhgQ94T8TWA_nwZn5cSo_EDXqr6FjCJRoxNPGgLmd0uR7q76Hs6u-iQfrE4sQi3v73TG6qKfbMsS-ZUQ-KyLUTbZ"/>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<h2 class="font-headline-md text-body-lg text-primary dark:text-on-surface truncate">Sapphire Velvet</h2>
+<span class="font-body-md text-caption text-on-surface-variant mt-1">380 GSM</span>
+</div>
+<p class="font-body-md text-caption text-on-surface-variant uppercase tracking-wider">Cotton Blend</p>
+<!-- Swatches -->
+<div class="flex gap-2 mt-2">
+<div class="w-4 h-4 rounded-full bg-[#0f2d59] ring-1 ring-outline-variant/30 ring-offset-2 ring-offset-background"></div>
+<div class="w-4 h-4 rounded-full bg-[#3d132a] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+<div class="w-4 h-4 rounded-full bg-[#18392b] ring-1 ring-outline-variant/30 hover:ring-offset-2 hover:ring-offset-background transition-all"></div>
+</div>
+</div>
+</article>
+</section>
+</main>
+<!-- BottomNavBar (Mobile Only for visual demo, but following guidelines it sits on bottom) -->
+<nav class="fixed bottom-0 w-full z-50 pb-safe md:hidden bg-surface/90 dark:bg-surface-container/90 backdrop-blur-xl border-t border-outline-variant/30">
+<div class="fixed bottom-0 left-0 w-full flex justify-around items-center h-20 px-4">
+<!-- Active Tab: Collections -->
+<button class="flex flex-col items-center justify-center text-primary dark:text-on-surface bg-secondary-container/50 dark:bg-secondary/20 rounded-full px-4 py-1 hover:opacity-70 transition-opacity active:scale-95 duration-200">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">grid_view</span>
+<span class="font-label-md text-label-md mt-1">Collections</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-secondary-container dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined">storefront</span>
+<span class="font-label-md text-label-md mt-1">Showroom</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-secondary-container dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined">calendar_today</span>
+<span class="font-label-md text-label-md mt-1">Bookings</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-secondary-container dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined">person</span>
+<span class="font-label-md text-label-md mt-1">Profile</span>
+</button>
+</div>
+</nav>
+<script>
+        // Simple script to handle swatch selection visual feedback
+        document.querySelectorAll('.rounded-full.ring-1').forEach(swatch => {
+            swatch.addEventListener('click', (e) => {
+                e.stopPropagation(); // Prevent card click
+                // Remove active ring offset from siblings
+                const siblings = e.target.parentElement.children;
+                Array.from(siblings).forEach(sib => {
+                    sib.classList.remove('ring-offset-2', 'ring-offset-background');
+                });
+                // Add to clicked
+                e.target.classList.add('ring-offset-2', 'ring-offset-background');
+            });
+        });
+    </script>
+</body></html>

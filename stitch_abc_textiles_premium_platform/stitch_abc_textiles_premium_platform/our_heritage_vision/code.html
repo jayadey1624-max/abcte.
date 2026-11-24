@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us - ABC Textiles</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&amp;family=Hanken+Grotesk:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "tertiary-container": "#261900",
+                        "on-surface-variant": "#444748",
+                        "on-tertiary-fixed": "#261900",
+                        "on-error-container": "#93000a",
+                        "on-secondary": "#ffffff",
+                        "surface": "#fbf9f8",
+                        "secondary": "#5e5e5b",
+                        "secondary-fixed-dim": "#c8c6c2",
+                        "on-primary-fixed-variant": "#474746",
+                        "surface-variant": "#e4e2e2",
+                        "on-secondary-fixed": "#1b1c19",
+                        "error": "#ba1a1a",
+                        "primary-container": "#1c1b1b",
+                        "tertiary-fixed": "#ffdea5",
+                        "on-tertiary-container": "#a17f3b",
+                        "on-error": "#ffffff",
+                        "tertiary": "#000000",
+                        "outline-variant": "#c4c7c7",
+                        "surface-tint": "#5f5e5e",
+                        "surface-bright": "#fbf9f8",
+                        "secondary-container": "#e1dfdb",
+                        "inverse-on-surface": "#f2f0f0",
+                        "primary-fixed": "#e5e2e1",
+                        "error-container": "#ffdad6",
+                        "secondary-fixed": "#e4e2dd",
+                        "on-secondary-container": "#63635f",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed-dim": "#e9c176",
+                        "background": "#fbf9f8",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-container": "#858383",
+                        "surface-container-high": "#e9e8e7",
+                        "surface-container": "#efeded",
+                        "on-background": "#1b1c1c",
+                        "surface-dim": "#dbdad9",
+                        "inverse-surface": "#303031",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "on-primary": "#ffffff",
+                        "outline": "#747878",
+                        "on-tertiary-fixed-variant": "#5d4201",
+                        "on-surface": "#1b1c1c",
+                        "surface-container-low": "#f5f3f3",
+                        "on-secondary-fixed-variant": "#474744",
+                        "primary": "#000000",
+                        "surface-container-highest": "#e4e2e2",
+                        "on-primary-fixed": "#1c1b1b",
+                        "inverse-primary": "#c8c6c5"
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.125rem",
+                        lg: "0.25rem",
+                        xl: "0.5rem",
+                        full: "0.75rem"
+                    },
+                    spacing: {
+                        "container-max": "1280px",
+                        "unit": "8px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px"
+                    },
+                    fontFamily: {
+                        "display-lg": ["Playfair Display"],
+                        "headline-md": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "body-md": ["Hanken Grotesk"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-lg": ["Playfair Display"],
+                        "label-md": ["Hanken Grotesk"]
+                    },
+                    fontSize: {
+                        "display-lg": ["64px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "600" }],
+                        "headline-md": ["28px", { lineHeight: "1.3", fontWeight: "500" }],
+                        "headline-lg-mobile": ["32px", { lineHeight: "1.2", fontWeight: "500" }],
+                        "body-md": ["16px", { lineHeight: "1.5", fontWeight: "400" }],
+                        "caption": ["12px", { lineHeight: "1.4", fontWeight: "400" }],
+                        "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
+                        "headline-lg": ["40px", { lineHeight: "1.2", fontWeight: "500" }],
+                        "label-md": ["14px", { lineHeight: "1", letterSpacing: "0.05em", fontWeight: "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .pb-safe { padding-bottom: env(safe-area-inset-bottom, 20px); }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col pt-16 md:pt-20 pb-24 md:pb-0">
+<!-- TopAppBar -->
+<header class="hidden md:flex bg-surface/80 dark:bg-surface-container-lowest/80 backdrop-blur-md fixed top-0 w-full z-50 border-b border-outline-variant/30 dark:border-outline/20 justify-between items-center px-margin-mobile h-16 w-full">
+<button class="text-on-surface-variant hover:opacity-70 transition-opacity">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<div class="font-display-lg text-headline-md text-primary dark:text-on-surface tracking-tight text-center flex-1">
+            ABC Textiles
+        </div>
+<button class="text-on-surface-variant hover:opacity-70 transition-opacity">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+</button>
+</header>
+<!-- Mobile TopAppBar -->
+<header class="flex md:hidden bg-surface/80 dark:bg-surface-container-lowest/80 backdrop-blur-md fixed top-0 w-full z-50 border-b border-outline-variant/30 dark:border-outline/20 justify-between items-center px-margin-mobile h-16 w-full">
+<button class="text-on-surface-variant hover:opacity-70 transition-opacity">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<div class="font-display-lg text-headline-md text-primary dark:text-on-surface tracking-tight">
+            ABC Textiles
+        </div>
+<button class="text-on-surface-variant hover:opacity-70 transition-opacity">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+</button>
+</header>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative w-full h-[530px] md:h-[707px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 bg-surface-dim z-0">
+<img alt="Textile Workshop" class="w-full h-full object-cover opacity-80 mix-blend-multiply" data-alt="A wide, immersive photograph of a traditional textile workshop. Large wooden looms are visible in the background, bathed in soft, natural light filtering through tall industrial windows. The foreground is slightly out of focus, highlighting the intricate threads. The atmosphere is calm, artisanal, and steeped in heritage. The color palette features warm woods, soft whites, and deep charcoal shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDihKIIJtEgyjJG6L3vSPJsWEeN_PuqfGcy5grNT8gx6H2sOa50sQyCSDMJLYdYJOayrnNhUXg0SF6lqUHKoT-3NU6HlxaQbtGLi8YSqSFyAGnlN-ckuCZieIFC1G8Yb4ismfDjtbJmMNhccucHANynnIc-I3alUSp0xR5xST5GAti-i1h1GOY0_B2G4DcMUXdhU4vrcsIAPqFRJqG1t3JTbQCT1zCBq_b-ESRh42IpbByp2k7pbRaC"/>
+</div>
+<div class="relative z-10 text-center px-margin-mobile max-w-3xl mx-auto">
+<h1 class="font-display-lg text-display-lg text-on-surface mb-6 hidden md:block">Mastering the Art<br/>of Textiles</h1>
+<h1 class="font-display-lg text-headline-lg-mobile text-on-surface mb-4 md:hidden">Mastering the Art of Textiles</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto">For over three decades, we have dedicated ourselves to the quiet luxury of exceptional fabrics.</p>
+</div>
+</section>
+<!-- Our Heritage -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop bg-surface max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<div class="md:col-span-4 md:col-start-2">
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-8 border-b border-outline-variant pb-4">Our Heritage</h2>
+</div>
+<div class="md:col-span-6 md:col-start-6">
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-6 leading-relaxed">
+                        Founded in the heart of the historic textile district, ABC Textiles began as a small, family-run workshop focused solely on the finest natural fibers. From the very beginning, our commitment has been to craftsmanship over mass production. We believe that true luxury lies in the details—the slight irregularities of hand-spun yarn, the rich depth of artisanal dyes, and the enduring quality of a carefully woven bolt.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Over 30 years later, while our capabilities have expanded and our techniques have modernized, our foundational ethos remains untouched. We still source our materials with uncompromising rigor and weave our fabrics with a profound respect for the generations of artisans who came before us. Every thread tells a story of dedication, precision, and a relentless pursuit of perfection.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Mission & Vision Blocks -->
+<section class="py-12 bg-surface-container-lowest border-y border-outline-variant/30">
+<div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2">
+<div class="bg-primary text-on-primary p-12 md:p-24 flex flex-col justify-center">
+<span class="font-label-md text-label-md uppercase tracking-widest text-on-primary/70 mb-6">Our Mission</span>
+<h3 class="font-headline-md text-headline-md mb-6">To elevate everyday living through uncompromising textile quality.</h3>
+<p class="font-body-md text-body-md text-on-primary/80">We strive to provide designers and creators with materials that inspire, focusing on sustainable practices and enduring craftsmanship.</p>
+</div>
+<div class="bg-surface-container p-12 md:p-24 flex flex-col justify-center border-l md:border-l border-outline-variant/30">
+<span class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant mb-6">Our Vision</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-6">A world where the tactile beauty of textiles is recognized as fundamental to human comfort.</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">We envision a future where traditional weaving techniques seamlessly integrate with modern innovation, preserving heritage while embracing the new.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden bg-surface/90 dark:bg-surface-container/90 backdrop-blur-xl fixed bottom-0 left-0 w-full flex justify-around items-center h-20 px-4 z-50 border-t border-outline-variant/30 pb-safe">
+<button class="flex flex-col items-center justify-center text-on-secondary-container dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined mb-1" data-icon="grid_view">grid_view</span>
+<span class="font-label-md text-caption">Collections</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-secondary-container dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined mb-1" data-icon="storefront">storefront</span>
+<span class="font-label-md text-caption">Showroom</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-secondary-container dark:text-on-secondary-fixed-variant hover:text-primary dark:hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined mb-1" data-icon="calendar_today">calendar_today</span>
+<span class="font-label-md text-caption">Bookings</span>
+</button>
+<button class="flex flex-col items-center justify-center text-primary dark:text-on-surface bg-secondary-container/50 dark:bg-secondary/20 rounded-full px-4 py-1 translate-y-[-2px] transition-transform">
+<span class="material-symbols-outlined mb-1" data-icon="person">person</span>
+<span class="font-label-md text-caption">Profile</span>
+</button>
+</nav>
+<!-- Footer -->
+<footer class="w-full mt-auto bg-surface-container-lowest dark:bg-surface-dim border-t border-outline-variant dark:border-outline flex flex-col items-center gap-4 py-12 px-margin-mobile text-center">
+<div class="font-display-lg text-headline-md mb-4 text-on-surface dark:text-on-surface-variant">ABC Textiles</div>
+<div class="flex gap-6 mb-6">
+<a class="font-body-md text-caption text-on-surface-variant dark:text-secondary-fixed-dim hover:text-tertiary dark:hover:text-tertiary-fixed transition-colors" href="#">Craftsmanship</a>
+<a class="font-body-md text-caption text-on-surface-variant dark:text-secondary-fixed-dim hover:text-tertiary dark:hover:text-tertiary-fixed transition-colors" href="#">Sustainability</a>
+<a class="font-body-md text-caption text-on-surface-variant dark:text-secondary-fixed-dim hover:text-tertiary dark:hover:text-tertiary-fixed transition-colors" href="#">Contact</a>
+<a class="font-body-md text-caption text-on-surface-variant dark:text-secondary-fixed-dim hover:text-tertiary dark:hover:text-tertiary-fixed transition-colors" href="#">Privacy</a>
+</div>
+<p class="font-body-md text-caption text-on-surface-variant dark:text-secondary-fixed-dim">© 2024 ABC Textiles. All rights reserved.</p>
+</footer>
+</body></html>

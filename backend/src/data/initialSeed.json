@@ -1,0 +1,218 @@
+{
+  "fabrics": [
+    {
+      "id": "heritage-linen",
+      "name": "Heritage Linen",
+      "category": "Linen",
+      "spec": "250 GSM",
+      "composition": "100% Belgian Flax",
+      "width": "145 cm",
+      "description": "Raw unbleached natural linen with visible weave patterns and subtle slubs in soft natural daylight. Minimalist neutral beige tones with premium tactile quality.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDem9jvjRUOUPj5i6gQH3V9MK_PUExcyXKXgvdWI3jbICfHYPathZfyDwdYTYGJJe0m5u2F1ZUHd4WOK53P0Uejv-RMfL4IkY15RvkpDTM6UHxGVzAYFmtxWW5O7tFgYe4lLF48YEmsnWCsJO28-iMJzsOWeKNNtgxF2QhgCDU6kMQYI5qQlBeLgv0Ezy1i5CHX-5OG07rCmyGPW2CuyzGpitbfrpBAytXpB98Ean6wS5-aDTounNF8",
+      "swatches": ["#f3ecd5", "#e8e4df", "#3a3c39"],
+      "inStock": true,
+      "pricePerYard": 68
+    },
+    {
+      "id": "mulberry-silk",
+      "name": "Mulberry Silk",
+      "category": "Silk",
+      "spec": "19 Momme",
+      "composition": "100% Grade 6A Mulberry Silk",
+      "width": "114 cm",
+      "description": "Lustrous mulberry silk fabric gracefully draped with smooth surface catching deep shadows and highlights. Rich charcoal and ruby luster.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBpRX5xEaiBY7joMDV6e7CrqWVWXKOggZ4VPlDL6afUab5hhpRjtnHxZyKxKSF9WKSoDzbCu_vSdyhl0v28HKMiwr6Mlx4lWsGa_Ta3kvbAP9EvsiSRthaqyBLkCgijSxbCVYT6ha2k9XCG9UwWSBizMGLWP625sN8dkBkkhRxvN-KaLLzyN58o8vVWf_eqimgWBpMsnSNYI-972Z9P4OTycPTHj6-J15Ak_ywvViKKpI9TynvQOqyf",
+      "swatches": ["#2a2a2a", "#9c1936"],
+      "inStock": true,
+      "pricePerYard": 110
+    },
+    {
+      "id": "chunky-merino",
+      "name": "Chunky Merino",
+      "category": "Wool",
+      "spec": "600 GSM",
+      "composition": "100% Extra-fine Merino Wool",
+      "width": "150 cm",
+      "description": "Chunky knitted merino wool with interlocking thick yarn loops. Soft warm creamy white tones, ideal for bespoke luxury upholstery.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCtvEgFGm80lripddZJiJuudjJyZ5L_ccaivyxtvTRcwY_PJwJW7wjD8bZ_fkJcciYMeHBkUQLwa7y-sM3MZK4krCFStrHcC6ofLInSSUs82HgPLm2v6RQyzFFBqgkrtbNx-EpkXg69aCjYlZRSlmbRxTglM2KUUdxsXX-fBH0T6PJXsYs07RpoQJNJfuCukhcu-Rx34Q4uZSxfhBdQEPS3DeitF6XgU_QN3rSduSSbmHyRNy9Ub-QD",
+      "swatches": ["#fdfbf6", "#a3b1c6", "#ccbba6"],
+      "inStock": true,
+      "pricePerYard": 94
+    },
+    {
+      "id": "egyptian-poplin",
+      "name": "Egyptian Poplin",
+      "category": "Cotton",
+      "spec": "120 Thread",
+      "composition": "100% Giza Egyptian Long-Staple Cotton",
+      "width": "140 cm",
+      "description": "Crisp finely woven Egyptian cotton poplin with smooth matte surface and subtle cross-hatching. Light dusty blue and crisp ivory.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBq_0MjhD7J62Bb0Hp9bPfRz4lvOUWWvfipW5jHNcZAAHGtWFWGo4lINn-jZHYAUaJM5j_Ik8ooQjCSTmCQdZowtO8dcrWhYPkrAp0q871vHSPL9ddXhQKQ-_HnFoopEyXWfes1l6KVCA840NIq9B_WWSXxpml5Q4_mtKyW5kEpZJwIkYjoxyp2646BGFqt5oKxbxZom91XsvhWhbv2IpF97228zOJKQ53Xii5FjVVU6O8GPpnDLZha",
+      "swatches": ["#d1dce5", "#ffffff", "#242b35"],
+      "inStock": true,
+      "pricePerYard": 52
+    },
+    {
+      "id": "opulent-velvet",
+      "name": "Opulent Velvet",
+      "category": "Synthetic",
+      "spec": "480 GSM",
+      "composition": "82% Viscose, 18% Silk Blend",
+      "width": "140 cm",
+      "description": "Dramatic close-up rich amber gold velvet with deep luxurious pile creating strong contrasts between highlights and deep tone.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBp3pJFG6k0S3ium3sEe_ozFlqe92vjnNQJHtX4FufDmt0b9rj4ztdGQgnTLIu5MdXXAVsrbC2cMO2j_kq6J6jAbR6WjeX9mseoMwshjtf5sOjQ42kU-9YKUV3z84IqtP3DRBZszK2CnyRSWeeHsoT0v2CPYfBoUHJUM8bTqT2b7OpeY2LX_XJWKQd3rJWShPHdn5qfRv897nxq7CSESnWefBWTnNvSDi-anUA2ltcqAD9I2_kx4O09",
+      "swatches": ["#b48a3c", "#1b1b1b", "#3d2b1f"],
+      "inStock": true,
+      "pricePerYard": 125
+    },
+    {
+      "id": "sheer-organza",
+      "name": "Sheer Organza",
+      "category": "Silk",
+      "spec": "35 GSM",
+      "composition": "100% Pure Mulberry Silk Organza",
+      "width": "135 cm",
+      "description": "Translucent ethereal white silk organza draped elegantly, allowing soft light filtration for architectural drapes.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBIKz1Zh0bs564rB7X5rnjOvZjfNdBTjMhm3-PT2_mLiVH_wOswXQWxvS5XQtRdT07yGlCdFKWWZy_JQHJY3vfcNH3SFuZT4oHW3tGo1NnbqyiDbCaJuDf61--3HVR4wIzMLDYmAYIItmOPIDfmXphzORPRxdeWNrk_qKqwdB-wsyjt1Mn9WP0bkG_uM5DwKLAj2k56ux0tFHklrhhF8Dm6lR5iN9_-sbB6hGheRXW5tJ7jDQLH6B8N",
+      "swatches": ["#ffffff", "#f4f3ef"],
+      "inStock": true,
+      "pricePerYard": 78
+    },
+    {
+      "id": "classic-boucle",
+      "name": "Classic Bouclé",
+      "category": "Wool",
+      "spec": "520 GSM",
+      "composition": "70% Wool, 30% Cotton Loop",
+      "width": "142 cm",
+      "description": "Heavy textural bouclé fabric in warm light taupe with complex looped yarns conveying grounded durability.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAbSO88bViaxnGPgxf0E9Bs38URFTh0Zvigm1KNmYDTFZb3ywMDQC4WlBHVWH_zzX-0OuLO_kX9g_T4PbmyqPSFDDBmD7zf0OqflFj_Q0Di5HBzdCzLoRN1q9g_CiNeAujegg4czL7sj6vuqf8XgxxKnzYwY2Obe6PF2MpEC7NbF9tnbfTxcG2oJRwxP2-YENGBcFXAznKUd6Ssg8b0cMuJ5LxU2qn0uk0N3GMDaJGpvotkjy58rrYm",
+      "swatches": ["#d7cfc5", "#8c857b", "#2e2d2b"],
+      "inStock": true,
+      "pricePerYard": 115
+    },
+    {
+      "id": "artisan-linen-charcoal",
+      "name": "Artisan Linen Charcoal",
+      "category": "Linen",
+      "spec": "310 GSM",
+      "composition": "100% Slubbed Flax Linen",
+      "width": "148 cm",
+      "description": "Meticulously styled folded linen fabric in soft muted charcoal tone with natural slubs and organic elegance.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDXckbElgF6OLtuVE_d0fKNlp_sO6CCnvCCuizBGn5zb_RwbnilUhrcjvHRi62QiovXH8G36K9JfdCqxDNJbF0_qTekxqCkTJEPK0syUOvWYTavKhdaCF2-VGXQML-W5B6ztBPx-VW8MyMTGHCmK88JA0Ka1skS1zSEFe3-UXpH8wyb4dRP5ywcL41AvF1yHcGOHBMrPEmOruC3DnvJHU6pOQkMcew-x1a4Ej8PXK753mbINSdMM9hV",
+      "swatches": ["#383938", "#555655", "#202020"],
+      "inStock": true,
+      "pricePerYard": 82
+    }
+  ],
+  "collections": [
+    {
+      "id": "summer-bloom",
+      "title": "The Summer Bloom Series",
+      "season": "Spring / Summer 2024",
+      "tag": "Seasonal Release",
+      "description": "Lightweight linens and breathable silks adorned with delicate floral motifs, inspired by the effervescent beauty of early summer gardens.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCAzbXfBT8fsvlFjzmWOZuh0u0xacVW1TfVxgV9MsxgfXjhJw3yrUdRqogm-uHvRct89CL8PKuQ3rAhRWVxObNQxd7dMbfEhIf2Wh6Sk9UuLQ1VzamJjQtNeaqB4ddjfonle3pWayW9xytqBXB9dLAQejjAFrfZsqAzalpwj3vKG-RmtLOHc1qQEn4sAnFhagmHk499xZKxAqM4matiQKL6i_usU_NxN79IPxbzy_IG2i4AuxxzRude",
+      "fabricCount": "18 Curated Weaves",
+      "categoryFilter": "Linen"
+    },
+    {
+      "id": "heritage-weaves",
+      "title": "Heritage Weaves",
+      "season": "Signature Line",
+      "tag": "Permanent Archive",
+      "description": "Robust wools and structured cottons honoring generations of craftsmanship. A study in quiet luxury and structural integrity.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAdDfHT4XaPgksyTEHITUjUk59exaYV8FdhWydfMwoapy6g3EK3xExZ4y6vT7FEEhXMeDK7pWK8NG7-CzlIhcfYUUNqjOALL4txF-zlomYCUSrA5h76edLUKqVFI9JhUd0hIgs6OiVKSyK_SXqL9anTG-N7hKLGWilS9RtoIqXLF7IWpSFFHYyE0M0YN9IpduEkXxVqZymvYarWgWoIBtHL6IVsTIU9MFFfCC3uzK9eYNxP3Vy_q3c6",
+      "fabricCount": "24 Archive Textiles",
+      "categoryFilter": "Wool"
+    },
+    {
+      "id": "sustainable-earth",
+      "title": "Sustainable Earth",
+      "season": "Eco-Conscious",
+      "tag": "Certified Organic",
+      "description": "Undyed organic fibers and recycled materials woven with environmental mindfulness, offering a tactile connection to the natural world.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCB_cbTdCihiiRKLj5pwdz_EXN98o7rexSmdAU3-H5Gqf5QurxI74OpxtraCNcTwVVYsN3BAqxJr-xbuBYsWSQ7N8d6-2shb8oMvMo95kwGBNCvaejEBJn-Hy0liyPQazukZL_OKrzzYF2uieCSx6cxl8MK5iBsiKPmVcXCF2QGeb7JBxkI-XfG0Ta8Qe4pFSsuYSmLOe1axSqUBq2Q-aXe0qyjTQXpU3fkR1JtxQMVorxGJywrmXl4",
+      "fabricCount": "12 Sustainable Weaves",
+      "categoryFilter": "Cotton"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "mtg-1",
+      "clientName": "Eleanor Vance",
+      "company": "Hill House Interiors",
+      "date": "Oct 24, 2024",
+      "time": "10:00 AM - 11:30 AM",
+      "status": "Upcoming",
+      "statusBadgeColor": "bg-secondary-container text-on-secondary-container",
+      "email": "eleanor@hillhouse.design",
+      "notes": "Inquiry regarding 80 yards of Heritage Linen and custom yarn dye matching."
+    },
+    {
+      "id": "mtg-2",
+      "clientName": "Marcus Thorne",
+      "company": "Thorne Architecture",
+      "date": "Oct 21, 2024",
+      "time": "2:00 PM - 3:00 PM",
+      "status": "Completed",
+      "statusBadgeColor": "bg-tertiary-container text-on-tertiary-container",
+      "email": "m.thorne@thornearch.com",
+      "notes": "Specification review for boutique hotel drapery and upholstery package."
+    },
+    {
+      "id": "mtg-3",
+      "clientName": "Sarah Jenkins",
+      "company": "Luxe Hospitality",
+      "date": "Oct 18, 2024",
+      "time": "11:00 AM - 12:00 PM",
+      "status": "Cancelled",
+      "statusBadgeColor": "bg-error-container text-on-error-container",
+      "email": "sarah.j@luxehospitality.co",
+      "notes": "Rescheduling requested for mid-November."
+    },
+    {
+      "id": "mtg-4",
+      "clientName": "David Chen",
+      "company": "Independent Designer",
+      "date": "Oct 15, 2024",
+      "time": "3:30 PM - 4:30 PM",
+      "status": "Completed",
+      "statusBadgeColor": "bg-tertiary-container text-on-tertiary-container",
+      "email": "david@chendesign.studio",
+      "notes": "Examined mulberry silk swatches for upcoming bridal collection."
+    },
+    {
+      "id": "mtg-5",
+      "clientName": "Amara O'Connor",
+      "company": "Atelier O'Connor",
+      "date": "Oct 29, 2024",
+      "time": "01:30 PM - 02:30 PM",
+      "status": "Upcoming",
+      "statusBadgeColor": "bg-secondary-container text-on-secondary-container",
+      "email": "amara@atelier-oconnor.com",
+      "notes": "Bespoke weave texture prototype consultation."
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq-1",
+      "subject": "Contract Specification for Boutique Hotel",
+      "message": "We require 120 yards of natural linen certified for hospitality commercial standards.",
+      "email": "contact@studiowork.com",
+      "phone": "+1 555-019-2831",
+      "status": "Needs Action",
+      "createdAt": "2024-10-20T10:15:00Z"
+    },
+    {
+      "id": "inq-2",
+      "subject": "Custom Yarn Dye Inquiries",
+      "message": "Looking for Pantone matching for a residential penthouse project.",
+      "email": "interior@penthouse.design",
+      "phone": "+1 555-019-9481",
+      "status": "Needs Action",
+      "createdAt": "2024-10-21T14:30:00Z"
+    }
+  ],
+  "samples": []
+}
